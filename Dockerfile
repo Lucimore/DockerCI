@@ -1,7 +1,7 @@
 FROM	ubuntu:14.04
 ENV	DEBIAN_FRONTEND noninteractive
 RUN	apt-get update
-RUN	apt-install -y curl \
+RUN	apt-get install -y curl \
 			nmap \
 			socat \
 			openssh-client \
